@@ -11,6 +11,7 @@ int main()
     cout << "y = "; cin >> y;
 
     z1 = pow(cos(x), 4) + pow(sin(y), 2) + 1 / 4 * pow(sin(2 * x - 1), 2);
+    // 2 р-ня
     z2 = sin(y + x) * sin(y - x);
 
     cout << "z1 = " << z1;
