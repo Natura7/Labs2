@@ -11,15 +11,13 @@ using namespace std;
 
 int main()
 {
-	double x;
-	double a;
-	double b;
-	double c;
-	double F;
+	double x,a,b,c,F,xp,xk,dx;
+	cout << "xp = "; cin >> xp;
+	cout << "xk = "; cin >> xk;
+	cout << "dx = "; cin >> dx;
 	cout << "a = "; cin >> a;
 	cout << "b = "; cin >> b;
 	cout << "c = "; cin >> c;
-	cout << "x = "; cin >> x;
 	// 1 спосіб
 	if (x + 5 < 0 && c == 0) {
 		F = 1 / ((a * x) - b);
