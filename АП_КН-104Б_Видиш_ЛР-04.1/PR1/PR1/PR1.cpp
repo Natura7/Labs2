@@ -15,7 +15,6 @@ int main()
 		i++;
 	}
 	cout << S << endl;
-	
 	S = 0;
 	i = N;
 	do {
